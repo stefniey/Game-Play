@@ -1,38 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.main{
+
+.main {
     height: 100vh;
 }
-body{
+
+body {
     background: linear-gradient(135deg, #dc0606ca, #05037a);
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box, .prompt_box{
+
+.box,
+.prompt_box {
     width: 500px;
     height: 400px;
     background: white;
     flex-direction: column;
 }
-.box :is(h1, p, form){
+
+.box :is(h1, p, form) {
     margin: 10px;
 
 }
-.box h1{
+
+.box h1 {
     font-family: sans-serif;
 
 }
-form{
+
+form {
     flex-direction: column;
 
 }
-form input{
+
+form input {
     display: flex;
     margin-bottom: 8px;
     width: 350px;
@@ -41,14 +50,33 @@ form input{
     outline: none;
     border-bottom: 1px solid #00000073;
 }
-.btn{
+
+.btn {
     width: 150px;
     height: 35px;
     font-size: 1.1rem;
     outline: none;
-    border:  none;
+    border: none;
     cursor: pointer;
-    background: linear-gradient(135deg, #dc0606ca, #05037a); 
+    background: linear-gradient(135deg, #dc0606ca, #05037a);
     color: #fff;
 }
 
+/* responsiveness for mobile viewport */
+@media screen and (max-width: 750px) {
+
+    .box h1 {
+        font-size: 22px;
+    }
+
+    .box,
+    .prompt_box {
+        width: 300px;
+    }
+
+    form input {
+        width: 250px;
+
+    }
+
+}
