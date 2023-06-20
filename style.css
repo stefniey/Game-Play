@@ -20,7 +20,7 @@ body {
 
 .box,
 .prompt_box {
-    width: 500px;
+    width: 40%;
     height: 400px;
     background: white;
     flex-direction: column;
@@ -62,8 +62,8 @@ form input {
     color: #fff;
 }
 
-/* responsiveness for mobile viewport */
-@media screen and (max-width: 750px) {
+/* responsiveness for mobile viewport stops at 350px*/
+@media screen and (max-width: 984px) {
 
     .box h1 {
         font-size: 22px;
@@ -71,7 +71,7 @@ form input {
 
     .box,
     .prompt_box {
-        width: 300px;
+        width: 80%;
     }
 
     form input {
