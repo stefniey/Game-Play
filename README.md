@@ -1,45 +1,79 @@
-# Game-Play
+# Number Guessing Game
 
+## Overview
 
-Welcome to the exciting Number Guessing Game! Test your intuition and luck in this interactive game built with HTML, CSS, and JavaScript.
+The Number Guessing Game is an interactive and exciting game where players can test their intuition and luck. Built with HTML, CSS, and JavaScript, this game is designed to challenge players' guessing abilities with various levels of difficulty.
 
-## How to Play
+## Key Features
 
-1. Enter your name: Start by inputting your name. 
+- **Interactive Gameplay**: Players guess numbers within specific ranges, with real-time feedback.
+- **Level-Based System**: Progress through different levels, each with an increasing range of numbers to guess.
+- **Responsive Layout**: Optimized for various devices, providing a seamless experience across mobile, tablet, and desktop.
+- **Simple Alerts**: Display notifications based on whether the guess is correct or incorrect.
 
-2. level from 1 to 10. Each level corresponds to a range of numbers you need to guess correctly.
+## Technology Stack
 
-3. Guess the number: Input your guess within the given range for the selected level. The game will provide feedback,
-4.  letting you know if your guess is too right or not.
-5.  
-6.  On a right guess pops up an alert functions that gives you a plus one.
-7.  and on a wron guess pops up an alert functions that says you loose.
+- **HTML**: For the structure and content of the webpage.
+- **CSS**: For styling the game interface.
+- **JavaScript**: For the game logic and interactive elements.
 
-4. Win and advance: Keep guessing until you correctly guess the number. Once you win, you can choose to advance to the next level
-5.  or end the game.
+## Table of Contents
 
-5. Enjoy the challenge: As you progress to higher levels, the range of numbers will increase, making the game more challenging and 
-6. thrilling.
+1. [Project Structure](#project-structure)
+2. [Getting Started](#getting-started)
+3. [Gameplay Features](#gameplay-features)
+4. [Contributing](#contributing)
+5. [License](#license)
 
-## Installation
+## Project Structure
 
-To run the game locally, follow these steps:
+Here’s an overview of the folder structure:
 
-1. Clone this repository to your local machine using the command:
-   
-   git clone https://github.com/your-username/number-guessing-game.git
-   
+```
+Game-Play/
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── script.js
+├── index.html
+```
 
-2. Navigate to the project directory:
-   
-   cd number-guessing-game
-   
-3. Open the `index.html` file in your preferred web browser.
+## Getting Started
 
-## Contact
+- **Clone the repository**:
 
-If you have any questions or feedback regarding the game, please don't hesitate to contact me. 
-You can reach me at [stephaniealor7@gmail.com]. Have fun playing the Number Guessing Game and enjoy the thrill of testing your guessing
-skills!
+  ```bash
+  git clone https://github.com/stefniey/Game-Play.git
+  cd Game-Play
+  ```
 
-Thank you for playing!
+- **Open the project**:
+
+  Open the `index.html` file in your preferred web browser to play the game.
+
+## Gameplay Features
+
+### 1. Level-Based System
+- Choose a level between 1 and 10, each corresponding to a specific range of numbers to guess.
+
+### 2. Interactive Gameplay
+- Enter guesses and receive feedback indicating if the guess is correct or incorrect.
+
+### 3. Alerts for Feedback
+- Alerts pop up to notify players of a correct guess (+1 point) or an incorrect guess (loss).
+
+### 4. Responsive Layout
+- The game is designed to be responsive, ensuring smooth gameplay across all devices.
+
+## Contributing
+
+- **Fork the repository**.
+- **Create a new branch** for your feature (`feature-name`).
+- **Commit your changes**.
+- **Push to your branch**.
+- **Open a pull request**.
+
+## License
+
+This project is licensed under the MIT License.
